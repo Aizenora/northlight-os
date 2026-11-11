@@ -44,11 +44,11 @@ undone by one script or a factory reset**.
 
 | | |
 |---|---|
-| TV | Vidda laser TV, `ro.build.description` `LASER_MICRO_3DTOF`, China market |
+| TV | Hisense Vidda C3 Ultra laser TV, `ro.build.description` `LASER_MICRO_3DTOF`, China market |
 | Board | MediaTek MT9655 (`ro.product.model` `VIDAA_TV`) |
 | Android | 14 (API 34), build `UQ1A.240105.004.A1` / `07.02.70.202512281739` |
 
-Tested Hisense Vidda models: C1, C2, C3 and C5. The firmware details above describe one tested China-market setup. Firmware and package lists can vary, so check `debloat.txt` against your own package list before using it on another model.
+The launcher has also been tested on the Hisense Vidda C1, Hisense Vidda C2, Hisense Vidda C3 and Hisense Vidda C5. The firmware details above are from the Hisense Vidda C3 Ultra. Firmware and package lists vary by model, so check `debloat.txt` against your own package list before using it on another model.
 
 ## Install
 
