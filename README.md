@@ -1,8 +1,8 @@
 # Northlight OS
 
-**A clean, English home screen and debloat kit for China-market Vidda / Hisense laser TVs.**
+**A clean, Moderen English home screen and debloat kit for Chinese-market Vidda / Hisense TV and laser Projector.**
 
-> Unofficial. Northlight OS is a community project and is **not made by, affiliated with or endorsed by
+> Northlight OS is a community project and is **not made by, affiliated with or endorsed by
 > Hisense or Vidda**. "Vidda" and "Hisense" are trademarks of their owners and are used here only to
 > say which TVs this is for.
 
