@@ -1,0 +1,11 @@
+venv/
+tools/adbkey/
+launcher/build/
+launcher/app/build/
+launcher/.gradle/
+launcher/local.properties
+*.jks
+*.keystore
+keystore.properties
+*.apk
+.DS_Store

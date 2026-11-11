@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="84dp"
+    android:orientation="horizontal" android:gravity="center">
+    <TextView android:id="@+id/btnLibrary" style="@style/TopButton"
+        android:text="@string/app_library"
+        android:drawableStart="@drawable/ic_apps_pill" />
+    <!-- Local addition: the PIN-locked System apps folder (system_apps in config.xml). Gone when that list is empty. -->
+    <TextView android:id="@+id/btnSystemApps" style="@style/TopButton"
+        android:layout_marginStart="16dp"
+        android:text="@string/system_apps"
+        android:drawableStart="@drawable/ic_apps_pill"
+        android:visibility="gone" />
+</LinearLayout>

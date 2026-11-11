@@ -1,6 +1,6 @@
 # Northlight OS
 
-**A clean, Moderen English home screen and debloat kit for Chinese-market Vidda / Hisense TV and laser Projector.**
+**A clean, modern English home screen and debloat kit for China-market Vidda / Hisense TVs and laser projectors, rebuilt on top of CleanYourTV.**
 
 > Northlight OS is a community project and is **not made by, affiliated with or endorsed by
 > Hisense or Vidda**. "Vidda" and "Hisense" are trademarks of their owners and are used here only to
@@ -18,8 +18,7 @@ undone by one script or a factory reset**.
 | ![Quick panel](screenshots/04-quick-panel.png) | ![Network menu](screenshots/03-network-menu.png) |
 | **Inputs** | **App grid** |
 | ![Inputs](screenshots/05-inputs.png) | ![Apps](screenshots/02-apps.png) |
-| **App library** | **System apps PIN** |
-| ![App library](screenshots/06-app-library.png) | ![PIN pad](screenshots/07-pin.png) |
+![App library](screenshots/06-app-library.png)
 
 ![System apps folder](screenshots/08-system-apps.png)
 
@@ -98,12 +97,12 @@ rebuild with `./build.sh` and reinstall with `./northlight-os-setup.sh`.
 | VPN app for the network pill | `vpn_app` |
 | Separate VPN pill instead of the badge | `vpn_pill` |
 
-## Things this firmware does not allow
+## App compatibility
 
-- **Netflix, Prime Video and the official YouTube TV app** need Google Play Services or a Netflix/Amazon
-  certified TV, and this set has neither. Use a certified streaming stick in HDMI 2 for Netflix and Prime
-  Video, and [SmartTube](https://github.com/yuliskov/SmartTube) for YouTube.
-- **Apps that sign in with Google** fail, because there is no Google Play Services.
+- **Netflix and YouTube work on the author's setup.** Streaming app support can vary by TV, firmware, region
+  and app version. Prime Video has not been confirmed on this setup.
+- **Some apps that sign in with Google may not work**, because this firmware does not include Google Play
+  Services.
 - **The remote's quick-panel button** still opens the Chinese panel: the firmware never runs the launcher's
   remote-key helper. Use the **Quick** pill on Home.
 - **"Turn off light source"** is not in the Quick panel: the firmware exposes no command for it.
@@ -111,8 +110,9 @@ rebuild with `./build.sh` and reinstall with `./northlight-os-setup.sh`.
 
 ## Credits
 
-Built on [cleanyourtv](https://github.com/Gathin23/cleanyourtv) by Gathin (MIT): the launcher, the ADB tools and
-the Hisense MT9655 notes. Northlight OS's changes are listed in [CHANGES.md](CHANGES.md).
+Northlight OS is rebuilt on top of [CleanYourTV](https://github.com/Gathin23/cleanyourtv) by Gathin (MIT),
+using its launcher, ADB tools and Hisense MT9655 notes as the foundation. Northlight OS's changes are listed
+in [CHANGES.md](CHANGES.md).
 
 ## Licence
 

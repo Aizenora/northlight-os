@@ -1,0 +1,32 @@
+# Northlight OS debloat list: Vidda laser TV (LASER_MICRO_3DTOF, MediaTek MT9655), China firmware, Android 14.
+# Tested 2026-11-04 on build 07.02.70.202512281739. Disabled with pm disable-user --user 0, never uninstalled.
+# Undo: ./northlight-os-undo.sh <tv ip>, or a factory reset.
+# Ads, telemetry, push
+com.hisense.service.ad
+com.hisense.business.ad
+com.hisense.platformreport
+com.hisense.logupload
+com.hisense.hitv.das
+com.hisense.service.message
+# Shop demo, hotel, meeting-room and first-run modes
+com.hisense.demonstrate
+com.hisense.hotelmenu
+com.meetingroom
+com.jamdeo.tv.fte
+# Preloaded content
+com.hisense.electronictutorial
+com.vision.aibook
+com.hisense.tv.weather
+com.jamdeo.calendar
+com.ju.miguvideoTV.cmcc
+# Chinese voice extras and the Sogou keyboard (install an English keyboard such as LeanKey first if you type a lot)
+com.speech.enchatroom
+com.aispeech.dui.dds.tvassistant
+com.intelligent.speech
+com.sohu.inputmethod.sogou.tv
+# Stock home (only after Northlight OS is installed; the two Hisense fallback homes stay and recover Home)
+com.jamdeo.tv.vod
+# Kept on purpose: com.hisense.tv.tiletransition and com.hisense.tv.inputs (HDMI switching),
+# com.hisense.tv.aivirtualassistant (contains the laser EyeProtect screen), com.hisense.aiservice,
+# com.hisense.vidaaassistant (app installs), com.jamdeo.updateservice (firmware updates), casting.
+# Never open anything named factory (com.vt.factory and the like).

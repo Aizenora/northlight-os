@@ -1,0 +1,65 @@
+Northlight OS — licence
+=======================
+
+Northlight OS is made of two kinds of work, and each keeps its own terms.
+
+1. cleanyourtv (the launcher and tools this project is built on)
+   Copyright (c) 2026 Gathin. MIT License, full text in part A below.
+
+2. Everything the Northlight OS author added or changed (all of Northlight OS's own work)
+   Copyright (c) 2026 the Northlight OS author. All rights reserved, under the terms in part B below.
+
+Third-party assets keep their own licences: launcher/FONT-LICENSE-OFL.txt (Outfit font, SIL OFL),
+launcher/ICONS-LICENSE-FLUENT-EMOJI.txt, and the ic_q_* icons (Material Design icons, Apache 2.0).
+
+-------------------------------------------------------------------------------------------------------
+A. MIT License (part 1: cleanyourtv)
+-------------------------------------------------------------------------------------------------------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------------------------------
+B. Northlight OS terms (part 2: the author's own work)
+-------------------------------------------------------------------------------------------------------
+
+You may, without asking:
+  - read the source code and learn from it;
+  - build it for yourself and install it on your own TVs;
+  - share links to this repository and its official releases.
+
+You must ask the author first, and have written permission, before you:
+  - change the source code and share, publish or distribute the changed version;
+  - redistribute the source code or the APKs anywhere other than this repository;
+  - use the Northlight OS name, logo or artwork for another project or product;
+  - use any of this work commercially (selling it, bundling it with devices, or in paid services).
+
+How to ask: open an issue on the official Northlight OS GitHub repository, say what you want to change or
+share and why, and wait for the author's written reply there. Permission given for one request does not
+cover others.
+
+Suggestions and fixes are welcome: open an issue or a pull request. By sending a pull request you agree
+that the author may use your change in Northlight OS under these terms.
+
+Part 1 above remains under the MIT License; these terms do not take away any right that licence gives
+for cleanyourtv's own code. Where a file contains both MIT-licensed code and Northlight OS changes, the MIT notice applies to
+the MIT parts and these terms apply to the rest.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE AUTHOR IS NOT LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY ARISING FROM ITS USE. Northlight OS is unofficial and is not made by, affiliated
+with or endorsed by Hisense or Vidda; "Vidda" and "Hisense" are trademarks of their owners.
