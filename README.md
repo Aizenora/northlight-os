@@ -48,7 +48,7 @@ undone by one script or a factory reset**.
 | Board | MediaTek MT9655 (`ro.product.model` `VIDAA_TV`) |
 | Android | 14 (API 34), build `UQ1A.240105.004.A1` / `07.02.70.202512281739` |
 
-The Northlight OS launcher has been tested on Hisense Vidda C1, C2, C3 and C5 models. The firmware details above describe one tested China-market setup. Firmware and package lists can vary, so check `debloat.txt` against your own package list before using it on another model.
+Tested Hisense Vidda models: C1, C2, C3 and C5. The firmware details above describe one tested China-market setup. Firmware and package lists can vary, so check `debloat.txt` against your own package list before using it on another model.
 
 ## Install
 
